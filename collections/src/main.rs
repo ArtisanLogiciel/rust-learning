@@ -55,4 +55,7 @@ fn main() {
     println!("hashmap is {:?}", hashmap);
     println!("hashmap is {:?}", hashmap.get("c"));
     println!("hashmap is {:?}", hashmap.contains_key("c"));
+    let slice = String::from("hello world");
+    let slice_2 = &slice[0..4];
+    println!("slice_2 is {:?}", slice_2);
 }
